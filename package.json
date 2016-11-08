@@ -1,0 +1,23 @@
+{
+  "name": "power-assert-deep-strict-equal-reference-error-repro",
+  "description": "power-assert 1.4.1 under Node v0.12.x and Babel6 bug reproduction repository",
+  "version": "1.0.0",
+  "author": {
+    "name": "Takuto Wada",
+    "email": "takuto.wada@gmail.com",
+    "url": "https://github.com/twada"
+  },
+  "devDependencies": {
+    "babel-register": "^6.18.0",
+    "mocha": "^3.1.2",
+    "power-assert": "1.4.1"
+  },
+  "keywords": [
+    "babel",
+    "power-assert"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "./run.sh"
+  }
+}
